@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑';
+}
+html{
+	min-width: 320px;
+}
+.right{
+	float: right;
+	margin-right: 15px;
+}
+.left{
+	float: left;
+	margin-left: 15px;
+}
+#header_h1{
+	display: block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	background: #59A2E1;
+	text-align: center;
+	font-size: 16px;
+	color: #eee;
+	font-family: '微软雅黑';
+}
+#header_h1 #sname{
+	/* margin-top: 13px; */
+	/* margin-left: 10px; */
+	margin: 12px auto;
+	display: inline-block;
+	clear: both;
+}
+#detail{
+	background: url(../bootstrap/img/glyphicons-halflings-white.png);
+	background-position: -264px -48px;
+	display: inline-block;
+	margin: 23px 20px;
+	width: 16px;
+	height: 16px;
+}
+#exit{
+	background: url(../bootstrap/img/glyphicons-halflings-white.png);
+	background-position: -119px -73px;
+	margin: 23px 20px;
+	width: 16px;
+	height: 16px;
+}
+#back{
+	background: url(../bootstrap/img/glyphicons-halflings-white.png);
+	background-position: -432px -73px;
+	display: inline-block;
+	margin-top: 25px; 
+	width: 16px;
+	height: 16px;
+}
+.panel-info{
+	width: 80%;
+	margin: 100px auto;
+	border: 5px solid #59A2E1;
+	border-radius: 5px;
+	text-align: center;
+}
+.panel-heading{
+	background: #59A2E1;
+	color: white;
+	height: 20px;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: '微软雅黑';
+}
+.panel-body{
+	font-size: 14px;
+	color:#333;
+	margin: 20px auto;
+	text-align: center;
+	padding: 20px 5px;
+	font-weight: '微软雅黑';
+
+}
+#rent{
+	margin: 65px auto;
+	text-align: center;
+}
+#rent h3{
+	font-size: 18px;
+	color: #333;
+	font-family: '微软雅黑';
+}
+#main_body table{
+	margin:-10px auto;
+	text-align: center;
+	background: #eee;
+	font-size: 16px;
+}
+td{
+	text-align:left;
+	display: inline-block;
+	margin: 10px;
+}
+.info{
+	color:#3A87AD;
+	margin-right: 3px;
+
+}
+.success{
+	color: #468847;
+	margin-right: 3px;
+}
+.warning{
+	color: #f89406;
+	margin-right: 3px;
+}
+.danger{
+	color:#FD0000;
+	margin-right: 3px;
+}
+.book_status{
+	display: block;
+	width: 60%;
+	margin: 5px auto;
+	padding: 5px;
+	color: #333;
+}
+.heading{
+	height: 5px;
+	width: 81.5%;
+	margin: -10px auto ;
+}
+.book_rent_list{
+	width: 80%;
+	padding: 10px;
+	margin-top: 10px;
+	font-size: 16px;
+	background: #EDECF4;
+	line-height: 20px;
+	color: #589BFC;
+	text-indent: 1em;
+	
+}
+#showtime{
+	text-align: left;
+	margin-top: 5px;
+}
+.renew,.renew_yes{
+	background: #B4D1B5;
+	display: block;
+	padding: 5px;
+	/* width: 50%; */
+	margin: 4px auto;
+	color: #333;
+
+}
